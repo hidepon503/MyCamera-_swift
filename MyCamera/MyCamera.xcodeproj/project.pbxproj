@@ -11,6 +11,7 @@
 		63CFFAEB2B3F070B00242E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFFAEA2B3F070B00242E59 /* ContentView.swift */; };
 		63CFFAED2B3F070D00242E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CFFAEC2B3F070D00242E59 /* Assets.xcassets */; };
 		63CFFAF02B3F070D00242E59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CFFAEF2B3F070D00242E59 /* Preview Assets.xcassets */; };
+		63CFFAF72B3F082100242E59 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFFAF62B3F082100242E59 /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		63CFFAEA2B3F070B00242E59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63CFFAEC2B3F070D00242E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CFFAEF2B3F070D00242E59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63CFFAF62B3F082100242E59 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				63CFFAE82B3F070B00242E59 /* MyCameraApp.swift */,
 				63CFFAEA2B3F070B00242E59 /* ContentView.swift */,
+				63CFFAF62B3F082100242E59 /* ImagePickerView.swift */,
 				63CFFAEC2B3F070D00242E59 /* Assets.xcassets */,
 				63CFFAEE2B3F070D00242E59 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CFFAEB2B3F070B00242E59 /* ContentView.swift in Sources */,
+				63CFFAF72B3F082100242E59 /* ImagePickerView.swift in Sources */,
 				63CFFAE92B3F070B00242E59 /* MyCameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,8 @@
 				DEVELOPMENT_TEAM = X525QX4TYL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +310,8 @@
 				DEVELOPMENT_TEAM = X525QX4TYL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
