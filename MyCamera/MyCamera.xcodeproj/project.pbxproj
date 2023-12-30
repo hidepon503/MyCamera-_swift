@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636A76B72B40366900EA23C6 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A76B62B40366900EA23C6 /* EffectView.swift */; };
 		63CFFAE92B3F070B00242E59 /* MyCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFFAE82B3F070B00242E59 /* MyCameraApp.swift */; };
 		63CFFAEB2B3F070B00242E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFFAEA2B3F070B00242E59 /* ContentView.swift */; };
 		63CFFAED2B3F070D00242E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CFFAEC2B3F070D00242E59 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		636A76B62B40366900EA23C6 /* EffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
 		63CFFAE52B3F070B00242E59 /* MyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CFFAE82B3F070B00242E59 /* MyCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraApp.swift; sourceTree = "<group>"; };
 		63CFFAEA2B3F070B00242E59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				63CFFAE82B3F070B00242E59 /* MyCameraApp.swift */,
 				63CFFAEA2B3F070B00242E59 /* ContentView.swift */,
+				636A76B62B40366900EA23C6 /* EffectView.swift */,
 				63CFFAF62B3F082100242E59 /* ImagePickerView.swift */,
 				63CFFAEC2B3F070D00242E59 /* Assets.xcassets */,
 				63CFFAEE2B3F070D00242E59 /* Preview Content */,
@@ -143,6 +146,7 @@
 				63CFFAEB2B3F070B00242E59 /* ContentView.swift in Sources */,
 				63CFFAF72B3F082100242E59 /* ImagePickerView.swift in Sources */,
 				63CFFAE92B3F070B00242E59 /* MyCameraApp.swift in Sources */,
+				636A76B72B40366900EA23C6 /* EffectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
